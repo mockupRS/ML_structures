@@ -10,11 +10,13 @@ from sklearn.pipeline import make_pipeline
 
 st.set_page_config(page_title="Simplified Beam Deflection ML", layout="wide")
 st.title("🏗️ Cantilever Beam Deflection: Theory vs. Machine Learning")
-st.write("Hello TADAA2 colleagues! This app intends to show you a practical application of ML for structural problems.")
-st.write('''What does it do?
-It trains a ML model on physics-generated data and compare predictions against exact beam theory.''')
-st.write("How does it work?/n Choose the amount of input data to train the ML model and the algorithm type.")
-st.write("What should I look for in the resulting plot?/n Check results accuracy as a function of amount of training data and choosen algorithm.")
+st.write("**Hello TADAA2 colleagues!** This app intends to show you a practical application of ML for structural problems.")
+st.write("*What does it do?*")
+st.write("It trains a ML model on physics-generated data and compare predictions against exact beam theory.")
+st.write("*How does it work?*")
+st.write("Choose the amount of input data to train the ML model and the algorithm type.")
+st.write("*What should I look for in the resulting plot?*")
+st.write("Check results accuracy as a function of amount of training data and choosen algorithm.")
 
 # --- Locked Internal Constants (Hidden from User) ---
 L = 10.0       # Beam Length (m)
