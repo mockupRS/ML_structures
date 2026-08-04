@@ -8,7 +8,7 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
-st.set_page_config(page_title="Simplified Beam Deflection ML", layout="wide")
+st.set_page_config(page_title="Beam Deflection ML", layout="wide")
 st.title("Hello TADAA2 colleagues!")
 st.write("This app intends to show you a practical application of ML for structural problems.")
 st.write("")
