@@ -62,8 +62,9 @@ if df is not None:
             
             # 80/20 Train-Test Split
             X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_test_split=0.20, random_state=42
+                X, y, test_size=0.20, random_state=42
             )
+
             
             # Initialize Selected Algorithm
             if algo == "Random Forest":
