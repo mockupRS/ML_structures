@@ -16,9 +16,8 @@ st.write("# 🏗️ Cantilever Beam Deflection: Theory vs. Machine Learning")
 st.write("## What does it do?")
 st.write("It trains an ML model on physics-generated data and compares predictions against exact beam theory.")
 st.write("## How does it work?")
-st.write("Choose the amount of input data to train the ML model and the algorithm type.")
-st.write("## What should I look for in the resulting plot?")
-st.write("Check results accuracy as a function of amount of training data and choosen algorithm.")
+st.write("Go to the left side bar and choose the amount of input data to train the ML model and the algorithm type.")
+st.write("Finally, press the button below 🚀".)
 
 # --- Locked Internal Constants (Hidden from User) ---
 L = 10.0       # Beam Length (m)
