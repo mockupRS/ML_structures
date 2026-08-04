@@ -57,8 +57,8 @@ df = pd.DataFrame({
     'vertical_displacement': target_displacement
 })
 
-st.subheader("📋 Generated Dataset Preview")
-st.dataframe(df.head(5))
+# st.subheader("📋 Generated Dataset Preview")
+# st.dataframe(df.head(5))
 
 # Prepare ML Data splits
 X = df[['EI', 'x_location']].values
@@ -75,7 +75,7 @@ else:
     )
 
 # --- EXECUTION BUTTON ---
-if st.button("🚀 Train Model & Generate Rainbow Level Plots"):
+if st.button("🚀 Train Model & Generate Level Plots"):
     with st.spinner(f"Fitting {algo} model to physics data..."):
         model.fit(X_train, y_train)
     st.success(f"{algo} training complete!")
