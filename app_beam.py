@@ -9,8 +9,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import make_pipeline
 
 st.set_page_config(page_title="Simplified Beam Deflection ML", layout="wide")
-st.title("**Hello TADAA2 colleagues!** This app intends to show you a practical application of ML for structural problems.")
-st.title("🏗️ Cantilever Beam Deflection: Theory vs. Machine Learning")
+st.title("Hello TADAA2 colleagues!"
+st.write("This app intends to show you a practical application of ML for structural problems.")
+st.write("")
+st.write("# 🏗️ Cantilever Beam Deflection: Theory vs. Machine Learning")
 st.write("## What does it do?")
 st.write("It trains an ML model on physics-generated data and compares predictions against exact beam theory.")
 st.write("## How does it work?")
